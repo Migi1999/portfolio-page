@@ -2,7 +2,8 @@ footer {
     position: fixed; /* Der Footer bleibt am unteren Rand der Seite */
     bottom: 0; /* Der Footer wird am unteren Rand platziert */
     width: 100%; /* Der Footer erstreckt sich über die gesamte Bildschirmbreite */
-    background-color: blue; /* Hintergrundfarbe für den Footer */
+    background-color: #0004ff8b; /* Hintergrundfarbe für den Footer */
     text-align: left; /* Text im Footer zentrieren */
-    padding: 10px; /* Innenabstand für den Footer */
+    padding: 0px; /* Innenabstand für den Footer */
+    left: 0;
 }
