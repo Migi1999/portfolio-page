@@ -5,10 +5,13 @@ footer {
     background-color: #75cdc7f7; /* Hintergrundfarbe für den Footer */
     text-align: middle; /* Text im Footer zentrieren */
     padding: 0px; /* Innenabstand für den Footer */
-    left: 0;
+    right: 0;
+
+// Versuch copyright auf der linken seite anzuzeigen und das Insta-Icon in der Mitte
+
+    display: flex;
+    justify-content: space-between; /* Elemente werden am Anfang und am Ende des Containers ausgerichtet */
+    align-items: center; /* Zentriert Elemente vertikal */
+    padding: 10px; /* Einfügeabstand für den Footer (optional) */
 }
 
-Text {
-
-    padding-right: 2em;
-}
