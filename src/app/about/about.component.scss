@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clearfix für float-Eigenschaften */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-container {
+    margin: 20px; /* Fügen Sie hier den gewünschten Abstand um das Bild ein */
+}

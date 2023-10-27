@@ -1,24 +1,13 @@
 <section class="layout-container header-big view-content">
 
-  <app-header></app-header>
+    <app-header></app-header>
 
-  <div class="container-fluid">
+    <div class="container-fluid">
+        <main role="main" class="container mt-5">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
 
-      <main role="main" class="container mt-5">
-          <router-outlet></router-outlet>
-      </main>
-
-  </div>
-
-  <div>
-      <!-- Hier steht alles, was zwischen Header und Footer kommt. -->
-      <!-- Immer "ng serve --open" im Terminal ausführen vor dem Ändern -->
-      <p>Konfiguriere noch den Hintergrund, setze ein Bild ein und Text.</p>
-
-      <!-- Füge das Bild ein -->
-      <img src="C:\Users\mikae\Documents\GitHub\portfolio-page\Steiner Mikael.jpg" alt="2023" width="200" height="300">
-  </div>
-
-  <app-footer></app-footer>
+    <app-footer></app-footer>
 
 </section>

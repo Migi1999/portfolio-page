@@ -1,16 +1,29 @@
 
-body {
-    background-color: blue; /* Blauer Hintergrund */
-    margin: 0; /* Entfernt den Standardseitenrand */
-    padding: 20; /* Entfernt den Standardseitenpadding */
+  /* CSS für die Navbar */
+  .navbar {
+    background-color: #75cdc7f7; /* Hintergrundfarbe der Navbar */
+    overflow: hidden;
+    width: 100%; /* Header über die gesamte Breite */
+    margin: 0;
+    padding: 0;
 }
-header {
-    background-color: #0004ff8b; /* Weiße Hintergrundfarbe für den Header */
-    text-align: center; /* Zentriert den Text im Header */
-    padding: 20px; /* Innenabstand für den Header */
+
+/* Stil für die Container, um die Links rechts auszurichten */
+.navbar-right {
+    float: right;
 }
-footer {
-    background-color: white; /* Weiße Hintergrundfarbe für die Fußzeile */
-    text-align: center; /* Zentriert den Text in der Fußzeile */
-    padding: 10px; /* Innenabstand für die Fußzeile */
+
+/* Stil für die Links in der Navbar */
+.navbar a {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Ändert die Farbe des Links bei Hover (Mauszeiger darüber) */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
