@@ -3,7 +3,12 @@ footer {
     bottom: 0; /* Der Footer wird am unteren Rand platziert */
     width: 100%; /* Der Footer erstreckt sich über die gesamte Bildschirmbreite */
     background-color: #75cdc7f7; /* Hintergrundfarbe für den Footer */
-    text-align: right; /* Text im Footer zentrieren */
+    text-align: middle; /* Text im Footer zentrieren */
     padding: 0px; /* Innenabstand für den Footer */
     left: 0;
+}
+
+Text {
+
+    padding-right: 2em;
 }
