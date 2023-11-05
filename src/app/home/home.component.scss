@@ -1,0 +1,26 @@
+/* Ändere die Schriftart und -größe für das gesamte Formular */
+#contact-form {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Verwende Arial oder eine andere Schriftart */
+    font-size: 16px;
+  }
+  
+  /* Ändere die Schriftart und -größe für Labels */
+  label {
+    font-family: 'Times New Roman', sans-serif; /* Verwende die Schriftart 'Roboto' oder eine andere */
+    font-size: 18px;
+  }
+  /* Ändere die Textfarbe für Labels auf Blau */
+label {
+    color: green;
+  }
+
+  /* Mache die Texteingabefelder fett und die Nachricht kursiv */
+input[type="text"] {
+    font-weight: bold;
+  }
+  
+  textarea {
+    font-style: italic;
+  }
+  
+  

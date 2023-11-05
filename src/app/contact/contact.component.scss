@@ -37,3 +37,12 @@
     background-color: #0056b3;
   }
   
+  /* Mache die Texteingabefelder fett und die Nachricht kursiv */
+input[type="text"] {
+    font-weight: bold;
+  }
+  
+  textarea {
+    font-style: italic;
+  }
+  
