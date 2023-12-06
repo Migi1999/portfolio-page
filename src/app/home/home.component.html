@@ -1,16 +1,77 @@
-<div class="portfolio-container">
-    <!-- Linke Spalte für das Bild -->
-    <div class="portfolio-column">
-        <div class="image-container">
-            <img src="../assets/20230408_194721000_iOS 1.jpg" alt="2023" width="400" height="auto">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deine Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Beige Farbe für den Hintergrund */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* 100% der Viewport-Höhe */
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            flex: 1; /* Der Inhalt nimmt den verbleibenden Platz ein */
+        }
+
+        .portfolio-column {
+            flex: 1;
+        }
+
+        .image-container {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .text-container {
+            text-align: left;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-container">
+        <!-- Hier kommt dein bestehender Inhalt -->
+        <div class="portfolio-column">
+            <div class="image-container">
+                <img src="../assets/20230408_194721000_iOS 1.jpg" alt="2023" width="400" height="auto">
+            </div>
+        </div>
+        <div class="portfolio-column">
+            <div class="text-container">
+                <h1>Herzlich willkommen auf meiner Portfolio-Seite</h1>
+                <p>Hier kannst du mehr über mich erfahren. Viel Spaß beim Durchstöbern!</p>
+            </div>
         </div>
     </div>
 
-    <!-- Rechte Spalte für den Text -->
-    <div class="portfolio-column">
-        <div class="text-container">
-            <h1>Herzlich willkommen auf meiner Portfolio-Seite</h1>
-            <p>Hier kannst du mehr über mich erfahren. Viel Spaß beim Durchstöbern!</p>
-        </div>
-    </div>
-</div>
+</body>
+</html>
+
