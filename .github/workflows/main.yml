@@ -46,7 +46,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-user-name: "Mikael Steiner"
+          git-user-name: "Migi1999"
           git-user-email: "mikael.steiner@students.bfh.ch"
           output-file: "false"
  
