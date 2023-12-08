@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "deploy": "ng deploy --base-href https://Migi1999.github.io/portfolio-page/ --no-silent",
+    "lint": "ng lint",
     "test": "ng test"
   },
   "private": true,
