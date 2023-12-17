@@ -1,9 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="navbar">
-    <div class="navbar-left">
-        <a routerLink="/">Home</a>
-        <a routerLink="/about">About Me</a>
-        <a routerLink="/contact">Contact</a>
-        <a routerLink="/more">More</a>
-    </div>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        /* Benutzerdefinierte Stile für den Header */
+        .navbar-custom {
+            background-color: #75cdc7f7; /* Hintergrundfarbe anpassen */
+            color: white; /* Textfarbe anpassen */
+        }
+
+        .navbar-custom a {
+            color: white; /* Link-Farbe anpassen */
+        }
+
+        .navbar-custom a:hover {
+            color: #ddd; /* Farbe beim Hover anpassen */
+        }
+    </style>
+    <title>Your Website Title</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <a class="navbar-brand" routerLink="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" routerLink="/about">About Me</a>
+                <a class="nav-item nav-link" routerLink="/contact">Contact</a>
+                <a class="nav-item nav-link" routerLink="/more">More</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Your page content goes here -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
