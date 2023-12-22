@@ -44,3 +44,12 @@
             max-height: 100%; /* Bild auf maximale Containerhöhe beschränken */
             height: auto; /* Behält das Seitenverhältnis bei */
         }
+
+
+.min-height{
+    height: 100%!important;
+}
+
+#setHeight{
+    height: 10vh;
+}
